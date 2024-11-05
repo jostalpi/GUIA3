@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cuadernos"
+version = "0.1.0"
+description = "Proyecto 3 – Agrupación de datos sobre obesidad"
+authors = ["Jonathan Alonso, Jehison Torres"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
